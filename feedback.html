@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Feedback Form</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/j4Pv3PJ/48645023-1.jpg">
+</head>
+   
+
+<body>
+    <nav>
+        <a href="./porshe.html">Porsche</a>
+        <a href="./feedback.html">Feedback</a>
+    </nav>
+
+    <h1>Feedback Form</h1>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div>
+            <label for="username"> Name  </label>
+            <input type="text" id="username">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email"id="email">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" min="18" max="80">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dob">Birth day</label>
+            <input type="date" id="dob">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="ad">Address</label>
+            <textarea  id="ad" cols="30" rows="5"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="fl">Profile Pic</label>
+            <input type="file" id="fl">
+        </div>
+
+        <br>
+
+        <div> 
+             <p>Gender
+        </p>
+        <input name="one" id="gn" type="radio">
+        <label for="gn">Male</label>
+
+        <input  name="one" id="gm" type="radio">
+        <label for="gm">female</label>
+
+        <input  name="one" id="gb" type="radio">
+        <label for="gb">N/A</label>
+        </div>
+      
+
+        <br>
+
+        <div>
+            <label for="ps">Password</label>
+            <input type="password" id="ps" required>
+        </div>
+    </fieldset>
+        
+         
+        <fieldset>
+            <legend>Preference</legend>
+
+            <div>
+                Favorite PR Model
+
+
+                <div>
+                    <input id="car" type="checkbox">
+                    <label for="car">PR 918</label>
+                </div>
+
+                <div>
+                    <input id="car2" type="checkbox">
+                    <label for="car2">PR 356</label>
+                </div>
+
+                <div>
+                    <input id="car3" type="checkbox">
+                    <label for="car3">PR 917</label>
+                </div>
+                
+            </div>
+
+            <br>
+
+
+            <div>
+                <label for="cl">Choose a colour</label>
+                <select name="" id="cl">
+                    <option value="black">Black</option>
+                    <option value="white">white</option>
+                    <option value="red">red</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="country">Choose Your Country :</label>
+                <input list="your country">
+                <datalist id="your country">
+                    <option value="india"></option>
+                    <option value="usa"></option>
+                    <option value="africa"></option>
+                    <option value="china"></option>
+                    <option value="pakisthan"></option>
+                    <option value="nepal"></option>
+                </datalist>
+            </div>
+
+            
+            
+
+
+        </fieldset>
+
+        <br>
+        
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    
+
+
+    
+       
+        
+    </form>
+</body>
+</html>
